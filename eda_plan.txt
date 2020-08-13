@@ -1,0 +1,42 @@
+EDA Questions
+
+Features:
+
+#Description
+Category
+#Entrepreneurs
+Location
+Website
+Website length
+Shark1
+Shark2
+Shark3
+Shark4
+Shark5
+Sharks
+Shark Group
+#Title
+#Episode-Season
+Episode
+Season
+Asked For (b)
+Stake In Company (b)
+Valuation (b)
+Multiple Entrepreneurs
+
+Deal (Target features)
+
+Quick note - see how many entropreneurs came on twice
+
+Target correlations:
+
+Category - website, location, season, asked for
+Location - website, shark group, season, valuation
+Website - website length, shark group, season, asked for
+Website length - season, multiple entrepreneurs, stake, valuation
+Sharks/Shark Group - season, multiple, stake, value
+Episode - asked for, value, stake, multiple
+Season - same
+Asked for - stake, value, multipl
+Stake - value, multiple
+Value - multiple
