@@ -26,8 +26,6 @@ Multiple Entrepreneurs
 
 Deal (Target features)
 
-Quick note - see how many entropreneurs came on twice
-
 Target correlations:
 
 Category - website, location, season, asked for
@@ -37,6 +35,25 @@ Website length - season, multiple entrepreneurs, stake, valuation
 Sharks/Shark Group - season, multiple, stake, value
 Episode - asked for, value, stake, multiple
 Season - same
-Asked for - stake, value, multipl
+Asked for - stake, value, multiple
 Stake - value, multiple
 Value - multiple
+
+General questions:
+
+What was the trend in valuation, stake, and asked for as seasons progressed?
+How many entrepreneurs appeared more than once?
+What was the breakdown of which sharks appeared most often and which groups appeeared most often?
+Did the season length have any effect on things like average stake, valuation, and asked for?
+What was the average of stake, valuation and asked for across every season and total?
+What was the min and max of stake, valuation and asked for across every season and total?
+What was the average valuation and stake asked for by category?
+If there was a guest shark, did that increase the chances of getting a deal or asked for, stake, and valuation?
+What was the probability of getting a deal based on the pressence of each shark?
+What were the most common locations?
+Do some locations have a higher percentage of sharks in certain categories?
+Are some locations likely to have higher amounts asked for, valuation, and stake?
+What was the trend of most common shark groups over the years?
+
+Feature correlations:
+
