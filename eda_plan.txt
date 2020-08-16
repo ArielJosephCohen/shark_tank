@@ -57,3 +57,9 @@ What was the trend of most common shark groups over the years?
 
 Feature correlations:
 
+Category - location, website, shark group, valuation
+Location - website, multiple, valuation, stake
+Shark group - asked for, stake, valuation, season
+Season - asked for, value, stake, multiple
+Asked for - stake, valuation
+Stake - valuation
