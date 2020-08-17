@@ -52,8 +52,6 @@ If there was a guest shark, did that increase the chances of getting a deal or a
 What was the probability of getting a deal based on the pressence of each shark?
 What were the most common locations?
 Do some locations have a higher percentage of sharks in certain categories?
-Are some locations likely to have higher amounts asked for, valuation, and stake?
-What was the trend of most common shark groups over the years?
 
 Feature correlations:
 
@@ -61,5 +59,4 @@ Category - location, website, shark group, valuation
 Location - website, multiple, valuation, stake
 Shark group - asked for, stake, valuation, season
 Season - asked for, value, stake, multiple
-Asked for - stake, valuation
-Stake - valuation
+Asked for - stake
