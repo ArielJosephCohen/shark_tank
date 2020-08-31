@@ -27,7 +27,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 def split_data(file,target):
     df=pd.read_csv(file)
-    X_train,X_test,y_train,y_test=train_test_split(df.drop(target,axis=1),df.deal)
+    X_train,X_test,y_train,y_test=train_test_split(df.drop(target,axis=1),df.deal,random_state=14)
     train = pd.concat([X_train,y_train],axis=1)
     test = pd.concat([X_test,y_test],axis=1)
     train.reset_index(inplace=True)
