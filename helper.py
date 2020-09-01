@@ -181,3 +181,31 @@ def log_reg_coef_graph(X,y):
         plt.tight_layout()
         plt.title('feature importances with sign')
         plt.show()
+        
+def roc_visual(train,test,target,model):
+    
+    X_train = train.drop(target,axis=1)
+    y_train = train[target]
+    X_test = test.drop(target,axis=1)
+    y_test = test[target]
+    
+    model.fit(X_train,y_train)
+    pred = model.predict(X_test)
+    
+    fpr, tpr, tresh = roc_curve(y_test,pred)
+    auc_ = auc(fpr,tpr)
+    
+    with sns.axes_style('darkgrid'):
+        
+        print(auc_)
+    
+        plt.figure(figsize=(15,8))
+
+        plt.plot(fpr, tpr, marker='.', label='(auc = %0.3f)' % auc_,color='forestgreen')
+
+        plt.xlabel('False Positive Rate -->')
+        plt.ylabel('True Positive Rate -->')
+
+        plt.legend()
+
+        plt.show()
