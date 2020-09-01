@@ -196,9 +196,7 @@ def roc_visual(train,test,target,model):
     auc_ = auc(fpr,tpr)
     
     with sns.axes_style('darkgrid'):
-        
-        print(auc_)
-    
+           
         plt.figure(figsize=(15,8))
 
         plt.plot(fpr, tpr, marker='.', label='(auc = %0.3f)' % auc_,color='forestgreen')
