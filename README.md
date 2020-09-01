@@ -24,6 +24,10 @@ Predictive Modeling
 
 Data Visualization
 
+Machine Learning Pipelines
+
+Feature Engineering
+
 ***
 
 # Summary of Files
@@ -42,3 +46,15 @@ This is my first notebook where I clean data and build a model.
 
 ### EDA.ipynb
 This is where I perform exploratory data analysis and hypothesis testing.
+
+### sharks_to_clean.csv
+This is a quick csv I created that helped me sort out some categorical data.
+
+### shark_dummy.ipynb
+Here I did a little work just to decide how to handle categorical data representing sharks present.
+
+### helper.py
+This was a backend module I work to help automate data cleaning and build shorter models.
+
+### second_model
+Here, I applied my helper module to quickly run through data pre-processing and modeling.
